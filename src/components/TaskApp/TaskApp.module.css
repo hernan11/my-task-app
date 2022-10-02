@@ -1,0 +1,8 @@
+@media screen and (min-width: 64em) {
+  .container {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: center;
+  }
+}

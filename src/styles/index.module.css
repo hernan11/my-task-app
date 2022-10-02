@@ -1,0 +1,37 @@
+:root {
+  /* Fonts */
+  --ff-main: "Poppins", sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semiBold: 600;
+
+  /* Colors */
+  --bg-main: hsl(0, 0%, 20%);
+  --clr-blue: hsl(204, 64%, 44%);
+  --clr-green: hsl(145, 63%, 49%);
+  --clr-gray: hsl(0, 0%, 50%);
+  --clr-lightblue: hsl(199, 100%, 50%);
+  --clr-red: hsl(6, 63%, 46%);
+  --clr-white: hsl(0, 0%, 93%);
+  --clr-yellow: hsl(48, 89%, 50%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--ff-main);
+  font-weight: var(--fw-regular);
+  color: var(--clr-white);
+  background-color: var(--bg-main);
+}
