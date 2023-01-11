@@ -10,3 +10,4 @@ Aplicación tipo crud para registrar tareas.
 - JavaScript
 - React JS
 ### Captura de Pantalla
+![app-tareas](https://user-images.githubusercontent.com/26915529/211820550-15ad5898-86db-4ec2-ab1a-8d24669012de.JPG)
